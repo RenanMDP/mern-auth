@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "hiroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+    "hiroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Renan Martineli de Paula",
   "license": "ISC",
