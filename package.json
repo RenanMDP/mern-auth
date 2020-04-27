@@ -4,7 +4,7 @@
   "description": "MERN Authentication Page",
   "main": "server.js",
   "scripts": {
-    "build": "cd client && npm run build",
+    "build": "npm run build",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
