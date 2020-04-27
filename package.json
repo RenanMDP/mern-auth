@@ -4,13 +4,12 @@
   "description": "MERN Authentication Page",
   "main": "server.js",
   "scripts": {
-    "build": "npm run build",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "hiroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Renan Martineli de Paula",
   "license": "ISC",
